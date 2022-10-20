@@ -1,10 +1,10 @@
 SHOW DATABASES; /*Listar base de datos*/
 
-CREATE DATABASE dbMinimarket;/*Crea base de datos*/
+CREATE DATABASE dbMinimarket; /*Crea base de datos*/
 
-USE dbMinimarket;
+USE dbMinimarket; /*Poner en uso la base de datos*/
 
-/*Crear la tablas*/
+/*Crear las tablas*/
 CREATE TABLE VENDEDOR(
     CODVEND CHAR(6),
     NOMVEN VARCHAR(50),
